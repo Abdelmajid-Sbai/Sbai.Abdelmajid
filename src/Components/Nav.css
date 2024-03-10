@@ -1,0 +1,145 @@
+:root{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+body{
+    margin: 0px;
+    padding-top: 0px;
+    /*background-color: #ffffe0;*/
+    
+
+    
+}
+.container{
+    background-color: #ffffe0;
+    
+}
+
+#root{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.navbar{
+    background-color: #ffe998;
+    color: #57370d;
+}
+b{
+    color: #57370d;
+}
+.storie{
+    background-color: #ffe998;
+    padding: 5px;
+    color: #57370d;
+}
+.card1{
+    background-color: #edd59e;
+}
+
+#h31{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #57370d;
+   
+    color: #ffe998;
+   
+  }
+
+.btn-primary{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffe998;
+    color: #57370d;
+    border: 0px;
+  
+  }
+
+
+
+
+#card_img{
+    width: 200px;
+}
+
+#devimage{
+    
+  
+    margin-left: 30px;
+}
+
+.image{
+    border: 5px solid black;
+    
+}
+
+#dev-dev-img{
+    padding: 0px;
+    padding-bottom: 30px;
+   
+ 
+    padding-right: 60px;
+    
+    border: 12px ;
+    position: relative;
+}
+
+.game{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+   
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes square{
+    0%{
+        translate: 0 0;
+        background: rgb(255, 255, 255);
+        rotate: 0;
+    }
+    25%{
+        translate: 0 300px;
+        background: rgb(0, 0, 0);
+        rotate: 90deg;
+    }
+    50%{
+        translate: 300px 300px;
+        background: rgb(255, 255, 255);
+        rotate: 180deg;
+    }
+    75%{
+        translate: 300px 0;
+        background: rgb(0, 0, 0);
+        rotate: 270deg;
+    }
+    100%{
+        translate: 0 0;
+        background: rgb(0, 0, 0);
+        rotate: 360deg;
+    }
+}
+
+form{
+    padding: 10px;
+    width: 500px;
+    background-color: #edd59e;
+}
+
+.footerspan{
+    color: #57370d;
+}
+
+.footer{
+    background-color: #ffe998;
+    color: #57370d;
+}
+
+.home{
+    height: 450px;
+}
