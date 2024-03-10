@@ -22,7 +22,7 @@ export default function About() {
                        <div className="img">
                        <h5 class="card-title ">Faculte des sciences juridique economique et social</h5>
                        <div className='row'>
-                       <img class="card-img-top  col-6" id='card_img'   src="/myphotos/fsjest.jpeg" alt="Card image cap"/>
+                       <img class="card-img-top  col-6" id='card_img' src={process.env.PUBLIC_URL+"/myphotos/fsjest.jpeg"}   alt="Card image cap"/>
                        <p className=' col-6'>hi</p>
                        </div>
                        </div>
@@ -36,7 +36,7 @@ export default function About() {
                        <div className="img">
                        <h5 class="card-title ">Ismontic tanger</h5>
                        <div className='row'>
-                       <img class="card-img-top col-6 "  id='card_img' src="/myphotos/fsjest.jpeg" alt="Card image cap"/>
+                       <img class="card-img-top col-6 "  id='card_img' src={process.env.PUBLIC_URL+"/myphotos/fsjest.jpeg"}  alt="Card image cap"/>
                        <p className='col-6'>hello</p>
                        </div>
                        </div>

@@ -43,7 +43,7 @@ export default function Home() {
                     <div ><button className='game'></button></div>
                     
                     <div className="myphoto " id='devimage'>
-                    <img  src="/myphotos/photo.jpg" alt="My Photo" className="image"/>
+                    <img  src={process.env.PUBLIC_URL+"/myphotos/photo.jpg"} alt="My Photo" className="image"/>
                     </div>
                    
                 </div>
