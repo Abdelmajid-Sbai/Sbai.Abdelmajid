@@ -19,6 +19,9 @@ body{
     margin-top: 0px;
     padding-top: 0px;
 }
+.color-yel{
+    color: #57370d;
+}
 
 .navbar{
     background-color: #ffe998;
@@ -40,22 +43,35 @@ b{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.btn-primary:hover {
+.btn:hover {
     background-color: #57370d;
-   
+
     color: #ffe998;
    
   }
 
-.btn-primary{
+.btn{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffe998;
     color: #57370d;
     border: 0px;
+    margin-right: 5px;
   
   }
 
+/*.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffe998;
+    color: #57370d;
+    border-radius: 0;
+    margin-right: 5px;
+}
 
+
+.nav-link:hover{
+    background-color: #57370d;
+    color: #ffe998;
+}*/
 
 
 #card_img{
@@ -63,29 +79,28 @@ b{
 }
 
 #devimage{
+    display: flex;
+    justify-content: center;
     
-  
-    margin-left: 30px;
+    
 }
 
 .image{
-    border: 5px solid black;
+    border-radius: 50%;
+    width: 56%;
+    justify-items: center;
+   
     
 }
 
 #dev-dev-img{
-    padding: 0px;
     padding-bottom: 30px;
-   
- 
-    padding-right: 60px;
     
-    border: 12px ;
     position: relative;
 }
 
 .game{
-    background-color: yellow;
+    background-color: #ffe998;
     width: 30px;
     height: 30px;
    
@@ -99,28 +114,28 @@ b{
 
 @keyframes square{
     0%{
-        translate: 0 0;
-        background: rgb(255, 255, 255);
+        translate: 90px 0;
+        background: #ffe998;
         rotate: 0;
     }
     25%{
-        translate: 0 300px;
-        background: rgb(0, 0, 0);
+        translate: 90px 420px;
+        background: #57370d;
         rotate: 90deg;
     }
     50%{
-        translate: 300px 300px;
-        background: rgb(255, 255, 255);
+        translate: 420px 425px;
+        background: #ffe998;
         rotate: 180deg;
     }
     75%{
-        translate: 300px 0;
-        background: rgb(0, 0, 0);
+        translate: 425px 0;
+        background: #57370d;
         rotate: 270deg;
     }
     100%{
-        translate: 0 0;
-        background: rgb(0, 0, 0);
+        translate:90px 0;
+        background: #ffe998;
         rotate: 360deg;
     }
 }

@@ -21,7 +21,7 @@ export default function Contact() {
           <label htmlFor="message" className="form-label">Message</label>
           <textarea className="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button type="submit" className="btn btn-primary">Envoyer</button>
       </form>
     </div>
     
