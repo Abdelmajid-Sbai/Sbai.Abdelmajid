@@ -6,9 +6,9 @@ export default function About() {
   
     return (
         <>
-        <div className="container pt-1  d-flex  ">   
-            <div className="row">
-                <div className="col-lg-8 divv ">
+        <div className="container pt-1 mt-5  d-flex  ">   
+            <div className="row mt-5">
+                <div className="col-lg-8 divv mt-5">
                 <h4 className=" pt-3 "><strong>About Me</strong></h4>
                 <h5><b>Profile</b></h5>
                 <p /*className="storie"*/ className=" glass ">My name is Abdelmadjid S'bai, I am 20 years old and I am currently a student at the ISTA NTIC Tangier Vocational Training Institute, specialized in the development of websites, by deferent programming languages such as HTML, CSS, JAVASCREPT, PHP, REACT, LARAVEL. I am currently studying at the Faculty of Legal,
