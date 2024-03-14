@@ -6,9 +6,9 @@ export default function Contact() {
   
     return (
     <>
-    <div className="container py-5">
+    <div className="container py-5" >
       <h1><b>Contact Me</b></h1>
-      <form>
+      <form className='col-lg-6'>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>
           <input type="text" className="form-control" id="name" placeholder="Enter your name" />
