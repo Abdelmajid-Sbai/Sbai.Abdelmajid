@@ -16,7 +16,7 @@ export default function Portfolio() {
                     <div className="card col-lg-3 card1  p-0 m-2">
                        <div className="img">
                        <h5 class="card-title p-3">With React</h5>
-                       <img class="card-img-top"    src={process.env.PUBLIC_URL+"/myphotos/portfolio.png"}  alt="Card image cap"/>
+                       <img class="card-img-top"    src={process.env.PUBLIC_URL+"/myphotos/portfolio.PNG"}  alt="Card image cap"/>
                        </div>
                         <div class="card-body">
                             <h5 class="card-title">2024</h5>
@@ -28,7 +28,7 @@ export default function Portfolio() {
                     <div className="card card1 col-lg-3 p-0 m-2">
                        <div className="img">
                        <h5 class="card-title p-3 ">With Laravel</h5>
-                       <img class="card-img-top  " src={process.env.PUBLIC_URL+"/myphotos/sitelaravel.png"}  alt="Card image cap"/>
+                       <img class="card-img-top  " src={process.env.PUBLIC_URL+"/myphotos/sitelaravel.PNG"}  alt="Card image cap"/>
                        </div>
                         <div class="card-body">
                             <h5 class="card-title">2024</h5>
@@ -40,7 +40,7 @@ export default function Portfolio() {
                     <div className="card card1 col-lg-3 p-0 m-2">
                        <div className="img">
                        <h5 class="card-title p-3 ">With Wordpress</h5>
-                       <img class="card-img-top  "  src={process.env.PUBLIC_URL+"/myphotos/Capture.png"}  alt="Card image cap"/>
+                       <img class="card-img-top  "  src={process.env.PUBLIC_URL+"/myphotos/Capture.PNG"}  alt="Card image cap"/>
                        </div>
                         <div class="card-body">
                             <h5 class="card-title">2024</h5>
