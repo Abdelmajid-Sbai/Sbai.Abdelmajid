@@ -27,6 +27,12 @@ body{
     background-color: #ffe998;
     color: #57370d;
 }
+
+.navbar-nav{
+    margin-top: 3px;
+}
+
+
 b{
     color: #57370d;
 }
@@ -86,7 +92,13 @@ b{
 }
 
 .image{
-    border-radius: 50%;
+  
+    
+ 
+   border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
     width: 56%;
     justify-items: center;
    
