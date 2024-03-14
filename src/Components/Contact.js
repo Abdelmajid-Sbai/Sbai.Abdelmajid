@@ -22,12 +22,9 @@ export default function Contact() {
           <textarea className="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
         </div>
         <button type="submit" className="btn btn-primary">Envoyer</button>
-      </form>
 
-      
-    </div>
-
-    <div className='container info pt-5 pb-5'>
+        <div className='container info  mt-3   pt-5 pb-5'>
+      <div className='col-lg-6 w-50'>
         <h3>Or contact me with :</h3>
         <div className="mb-3">
           <label htmlFor="message" className="form-label">Phone number : 0608146796</label>
@@ -36,8 +33,16 @@ export default function Contact() {
         <div className="mb-3">
           <label htmlFor="message" className="form-label">Email : sbai.abdelmajid2003@gmail.com</label>
         </div>
+        </div>
 
       </div>
+      </form>
+      
+
+      
+    </div>
+
+   
     
     </>
     )

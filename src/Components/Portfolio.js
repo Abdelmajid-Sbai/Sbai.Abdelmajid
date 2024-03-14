@@ -105,7 +105,7 @@ export default function Portfolio() {
                         </div>
                         <div class="card-body">
                             <div className='d-flex'>
-                            <h5 class="card-title col-lg-6 p-1">Outils informatique:</h5>
+                            <h5 class="card-title col-lg-6 ">Outils informatique:</h5>
                             <p class="card-text col-lg-6 p-1"> Visual Studio, starUML , Figma.</p>
                             </div>
                         </div>
@@ -118,7 +118,7 @@ export default function Portfolio() {
                     </div>
 
 
-                    <div className="card col-lg-3 card2 p-0 m-2">
+                    <div className="card col-lg-3 h-50 card2 p-0 m-2">
                        <div className="img">
                        <img class="card-img-top"    src={process.env.PUBLIC_URL+"/myphotos/softskills.png"}  alt="Card image cap"/>
                        </div>
@@ -140,9 +140,9 @@ export default function Portfolio() {
                     </div>
 
 
-                    <div className="card col-lg-3 card2  p-0 m-2">
+                    <div className="card col-lg-3 card2 h-25  p-0 m-2">
                        <div className="img">
-                       <img class="card-img-top"    src={process.env.PUBLIC_URL+"/myphotos/hobies3.jpeg"}  alt="Card image cap"/>
+                       <img class="card-img-top "    src={process.env.PUBLIC_URL+"/myphotos/hobies6.jpeg"}  alt="Card image cap"/>
                        </div>
                        <div class="card-body">
                             <h5 class="card-title text-center col-lg-12"><b>Hobbies</b></h5>   
