@@ -45,6 +45,10 @@ b{
     background-color: #edd59e;
 }
 
+.card2{
+    background-color: #ffe998;
+}
+
 #h31{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -177,4 +181,9 @@ form{
 
 .home{
     height: 450px;
+}
+
+.allprojet{
+    display: flex;
+    justify-content: center;
 }
