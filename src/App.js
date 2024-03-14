@@ -8,6 +8,8 @@ import About from './Components/About';
 import Portfolio from './Components/Portfolio';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
+import Wordpress_site from './Components/Wordpress_site';
+import Laravel_site from './Components/Laravel_site';
 
 
 
@@ -15,6 +17,7 @@ function App() {
   return (
     <>
     <Navbar/>
+ 
     
 
     <Routes>
@@ -23,6 +26,8 @@ function App() {
         <Route   path='/About' element={<About/>}  />
         <Route   path='/Portfolio' element={<Portfolio/>}  />
         <Route   path='/Contact' element={<Contact/>}  />
+        <Route   path='/Wordpress_site' element={<Wordpress_site/>}  />
+        <Route   path='/Laravel_site' element={<Laravel_site/>}  />
 
     </Routes>
 

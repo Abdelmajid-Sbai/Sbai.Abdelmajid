@@ -5,7 +5,7 @@ export default function Portfolio() {
   
     return (
     <>
-            <div className="container pt-5 d-flex  ">   
+            <div className="container pt-5 pb-5 d-flex  ">   
             <div className="row">
                 <div className="col-lg-8  mt-3">
                 <h4><strong>About My Projets</strong></h4>
@@ -21,7 +21,7 @@ export default function Portfolio() {
                         <div class="card-body">
                             <h5 class="card-title">2024</h5>
                             <p class="card-text">Portfolio</p>
-                            <a href="#" class="btn btn-primary">Lien to site</a>
+                            <a href="https://Abdelmajid-Sbai.github.io/Sbai.Abdelmajid" class="btn">Lien to site</a>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ export default function Portfolio() {
                         <div class="card-body">
                             <h5 class="card-title">2024</h5>
                             <p class="card-text">Ecommerce site web</p>
-                            <a href="#" class="btn btn-primary">Lien to site</a>
+                            <Link className="nav-link btn  ml-5  color-yel" to="/Laravel_site">More details</Link>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ export default function Portfolio() {
                         <div class="card-body">
                             <h5 class="card-title">2024</h5>
                             <p class="card-text">Ecommerce site web Wordpress</p>
-                            <a href="http://localhost/ecom_w/" class="btn btn-primary">Lien to site</a>
+                            <Link className="nav-link btn  ml-5  color-yel" to="/Wordpress_site">More details</Link>
                         </div>
                     </div>
 

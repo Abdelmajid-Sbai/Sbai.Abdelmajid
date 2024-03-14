@@ -65,7 +65,7 @@ export default function About() {
                     </div>
 
                     <div className="col-lg-12 m-1  p-3">
-                    <p className="storie m-0 p-3">Baccalaureate Free  2022 <br/>
+                    <p className="storie m-0 p-3"> Free Baccalaureate  2022 <br/>
                     <span>Mention : Assy Bien</span><br/>
                     Option : sciences de la vie et de la Terre </p>
                     </div>
