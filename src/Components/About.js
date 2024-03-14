@@ -36,7 +36,7 @@ export default function About() {
                        <h5 class="card-title ">Ismontic tanger</h5>
                        <div className='row'>
                        <img class="card-img-top col-5 "  id='card_img' src={process.env.PUBLIC_URL+"/myphotos/ismontic.jpeg"}  alt="Card image cap"/>
-                       <p className='col-7'>Diploma in course as a technician specialized in full stack web digital development /Ongoing training in 
+                       <p className='col-6'>Diploma in course as a technician specialized in full stack web digital development /Ongoing training in 
                        an Institute specialized in Offshoring and New Information and Communication Technologies.</p>
                        </div>
                        </div>
