@@ -24,6 +24,19 @@ export default function Wordpress_site() {
         <div className='col-lg-12'>
         <img class="card-img-top  "  src={process.env.PUBLIC_URL+"/myphotos/wordpress5.PNG"}  alt="Card image cap"/>
         </div>
+
+        <div className='col-lg-12'>
+        <h3 class="mb-5" ><b>page shop</b></h3>
+        <img class="card-img-top  "  src={process.env.PUBLIC_URL+"/myphotos/wordpressshop.PNG"}  alt="Card image cap"/>
+        </div>
+        <div className='col-lg-12'>
+        <h3 class="mb-5" ><b>page cart</b></h3>
+        <img class="card-img-top  "  src={process.env.PUBLIC_URL+"/myphotos/wordpresscart.PNG"}  alt="Card image cap"/>
+        </div>
+        <div className='col-lg-12'>
+        <h3 class="mb-5" ><b>page Contact</b></h3>
+        <img class="card-img-top  "  src={process.env.PUBLIC_URL+"/myphotos/wordpresscontact.PNG"}  alt="Card image cap"/>
+        </div>
       </div>
     </div>
         </>

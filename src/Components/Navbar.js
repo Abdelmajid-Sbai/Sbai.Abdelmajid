@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="navbar-nav ml-auto d-flex flex-row w-100 justify-content-end">
           <ul className="navbar-nav ml-auto ">
           <li className="nav-item mr-5">
-              <Link className="nav-link btn  ml-5  color-yel" to="/">Home</Link>
+              <Link className="nav-link btn  ml-5  color-yel" to="/https://abdelmajid-sbai.github.io/Sbai.Abdelmajid/">Home</Link>
             </li>
             <li className="nav-item active mr-5">
               <Link className="nav-link btn  mr-5  color-yel" to="/Portfolio">Portfolio</Link>

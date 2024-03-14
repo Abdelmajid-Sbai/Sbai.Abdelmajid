@@ -17,12 +17,12 @@ function App() {
   return (
     <>
     <Navbar/>
- 
+    
     
 
     <Routes>
         
-        <Route   path='/' element={<Home/>}  />
+        <Route   path='/https://abdelmajid-sbai.github.io/Sbai.Abdelmajid/' element={<Home/>}  />
         <Route   path='/About' element={<About/>}  />
         <Route   path='/Portfolio' element={<Portfolio/>}  />
         <Route   path='/Contact' element={<Contact/>}  />
