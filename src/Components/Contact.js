@@ -23,7 +23,21 @@ export default function Contact() {
         </div>
         <button type="submit" className="btn btn-primary">Envoyer</button>
       </form>
+
+      
     </div>
+
+    <div className='container info pt-5 pb-5'>
+        <h3>Or contact me with :</h3>
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label">Phone number : 0608146796</label>
+        </div>
+
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label">Email : sbai.abdelmajid2003@gmail.com</label>
+        </div>
+
+      </div>
     
     </>
     )
