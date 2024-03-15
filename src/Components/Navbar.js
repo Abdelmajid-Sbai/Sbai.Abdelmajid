@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <>
 
-<nav className="navbar container navbar-expand-lg p-3 mt-0 ">
+<nav className="navbar container   navbar-expand-lg p-3 mt-0 ">
         <Link className="navbar-brand color-yel" to="/"><strong>S'bai.</strong></Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={toggleNavbar}>
           <span className="navbar-toggler-icon"></span>

@@ -14,6 +14,7 @@ body{
 .container{
     background-color: #ffffe0;
     
+    
 }
 
 #root{
@@ -27,6 +28,7 @@ body{
 .navbar{
     background-color: #ffe998;
     color: #57370d;
+    
 }
 
 .navbar-nav{
@@ -208,7 +210,22 @@ form{
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     padding: 10px;
+   
     
+}
+.glass3{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 10px;
+    
+    
+  
 }
 
 .glass1{

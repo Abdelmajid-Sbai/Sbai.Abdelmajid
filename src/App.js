@@ -16,6 +16,7 @@ import Laravel_site from './Components/Laravel_site';
 function App() {
   return (
     <>
+    <div className=''>
     <Navbar/>
     
     
@@ -32,7 +33,7 @@ function App() {
     </Routes>
 
     <Footer/>
-
+    </div>
 
     </>
   );
