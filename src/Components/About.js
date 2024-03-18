@@ -20,7 +20,7 @@ export default function About() {
                     <div className='glass1 col-lg-5 m-3 p-0'>
                     <div className="card glass col-lg-12  p-2 pb-5  ">
                        <div className="img">
-                       <h5 class="card-title ">Faculte des sciences juridique economique et social</h5>
+                       <h5 class="card-title "><strong>Faculte des sciences juridique economique et social</strong></h5>
                        <div className='row'>
                        <img class="card-img-top imgismontic ism   col-7 " id='card_img' src={process.env.PUBLIC_URL+"/myphotos/fsjest.jpeg"}   alt="Card image cap"/>
                        <p className=' col-5 p-0  mt-1'>Bachelor's Degree in Economics and Management. Ongoing training in a faculty of legal, economic and social sciences</p>
@@ -36,7 +36,7 @@ export default function About() {
                     <div className='glass2 col-lg-5 m-3 p-0'>
                     <div className="card glass col-lg-12  p-2 pb-5 ">
                        <div className="img">
-                       <h5 class="card-title ">Ismontic tanger</h5>
+                       <h5 class="card-title "><strong>Ismontic tanger</strong></h5>
                        <div className='row'>
                        <img class="card-img-top col-4  "  id='card_img' src={process.env.PUBLIC_URL+"/myphotos/ismontic.jpeg"}  alt="Card image cap"/>
                        <p className='col-6 p-0 text-white'>Diploma in course as a technician specialized in full stack web digital development /Ongoing training in 

@@ -261,3 +261,23 @@ form{
     background-color: #ffe998;
     border-radius: 20px;
 }
+
+.titre{
+    list-style: none;
+    color: #ffb300;
+}
+
+.titre1{
+    list-style: none;
+    
+    color: #ffb300;
+}
+
+.horizontal-line{
+    text-decoration:underline ;
+    border-bottom: 1px solid #ffb300; /* Change the color and width as needed */
+    width: 100%; 
+    padding: 5px;
+    text-decoration-style: none;
+    list-style-type: none;
+}

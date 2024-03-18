@@ -5,8 +5,48 @@ export default function Portfolio() {
   
     return (
     <>
+
+
+
+
+
             <div className="container pt-5 pb-5 d-flex  ">   
+
             <div className="row">
+            <div className='col-lg-12 newprojet'>
+                        
+            <div className='container menu1 pb-5'>
+
+            <div className='container '>
+            <h3 className='w-100 text-center  titre1  pb-2 mt-5 pt-2'>New projet not finished</h3>
+            <li class="horizontal-line mb-5"></li>
+            <div className='row'>
+                <div className='col-lg-8  p-1'>
+                <img  src={process.env.PUBLIC_URL+"/myphotos/newprojet.PNG"} alt="My Photo" className="w-100"/>
+                </div>
+                    <div className='col-lg-4 pb-3 div-ul bg-dark'>
+                    <h5>hi</h5>
+                    <ul>
+                    <li className='titre'><strong>New city restaurant</strong></li>
+                    <li class="horizontal-line"></li>
+                    <p className='text-white'>un site web d'un restaurant avec reactJs </p>
+                    <li className='text-white'>Accueil</li>
+                    <li className='text-white'>Notre menu</li>
+                    <li className='text-white'>Contact</li>
+                    <li className='text-white'>Reserver une table</li>
+
+                        
+                    </ul>
+                    <Link className="nav-link btn  ml-5 mt-3  color-yel text-center " to="https://abdelmajid-sbai.github.io/New-City-restaurant">Visite site</Link>
+                    </div>
+
+            </div>
+            </div>
+
+
+            </div>
+            </div>
+
                 <div className="col-lg-12  mt-3">
                 <h4><strong>About My Projets</strong></h4>
                 <h5 className="w-100 text-center">My projets in developpement digital web full stack </h5>
