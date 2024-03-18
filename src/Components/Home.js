@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import About from './About';
+import {Link} from 'react-router-dom'
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 
@@ -34,7 +35,8 @@ export default function Home() {
                 <div className="col-lg-5 col-md-6    p-3 mt-5" >
                     <h3 >Hello !<span id="h31" > I'm Abdelmajid S'bai</span></h3>
                     <h3><span style={{ color: 'blue', background:"black", }}>{text}</span><span className="text-red">|</span></h3>
-                    <a href="/About" class="btn  mt-5">About Me</a>
+                  
+                    <Link className="nav-link btn  mt-5 w-25  color-yel" to="/About">About Me</Link>
                     
 
                     
@@ -54,7 +56,7 @@ export default function Home() {
         <About/>
         <Portfolio/>
         <Contact/>
-        
+         
         
         
 
