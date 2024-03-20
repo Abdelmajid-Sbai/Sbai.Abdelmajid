@@ -112,7 +112,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col-lg-12   mt-3">
                 <div className="row allprojet">
-                    <div className="card col-lg-3 card2  p-0 m-2 ">
+                    <div className="card glass col-lg-3 card2  p-0 m-2 ">
                        <div className="img">
                        <img class="card-img-top"    src={process.env.PUBLIC_URL+"/myphotos/codingimage.jpeg"}  alt="Card image cap"/>
                        </div>
@@ -158,7 +158,7 @@ export default function Portfolio() {
                     </div>
 
 
-                    <div className="card col-lg-3 h-50 card2 p-0 m-2">
+                    <div className="card glass col-lg-3 h-50 card2 p-0 m-2">
                        <div className="img">
                        <img class="card-img-top"    src={process.env.PUBLIC_URL+"/myphotos/softskills.png"}  alt="Card image cap"/>
                        </div>
@@ -166,21 +166,12 @@ export default function Portfolio() {
                             <h5 class="card-title text-center pb-0  col-lg-12"><b>Soft Skills</b></h5> 
                             <h5 class="card-title  col-lg-12 p-3">Motivation</h5>   
                             <h5 class="card-title  col-lg-12 p-3">responsabilité</h5> 
-                            <h5 class="card-title  col-lg-12 p-3">Travaille d'equipe</h5> 
-                            <h5 class="card-title  col-lg-12 p-3">Sérieux</h5>
-                            <h5 class="card-title  col-lg-12 p-3">Honnête</h5>
-                            <h5 class="card-title  col-lg-12 p-3">le respect</h5>
-                        </div>
-                        
-                       
-
-                       
-                        
-                         
+                            <h5 class="card-title  col-lg-12 p-3">Travaille d'equipe</h5>
+                        </div> 
                     </div>
 
 
-                    <div className="card col-lg-3 card2 h-25  p-0 m-2">
+                    <div className="card glass col-lg-3 card2 h-25  p-0 m-2">
                        <div className="img">
                        <img class="card-img-top "    src={process.env.PUBLIC_URL+"/myphotos/hobies6.jpeg"}  alt="Card image cap"/>
                        </div>

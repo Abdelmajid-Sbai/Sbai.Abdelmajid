@@ -1,6 +1,5 @@
 :root{
-    margin-top: 0px;
-    padding-top: 0px;
+   margin-top: -24px;
 }
 
 body{
@@ -242,7 +241,7 @@ form{
 }
 
 .glass2{
-    background: url(/public/myphotos/ismontic.jpeg);
+    background: url(/public/myphotos/ismontic2.jpeg);
 
     border-radius: 20px;
     background-repeat: repeat;   
